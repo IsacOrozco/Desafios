@@ -1,4 +1,4 @@
-Palavra = input("Entre com um texto:").upper()## upper é para tudo que entrar ser maiusculo, e verificar todos os A
+Palavra = input("Digite um texto:").upper()## upper é para tudo que entrar ser maiusculo, e verificar todos os A
 achar = 'A'
 letra = []
 numero = 0
@@ -12,5 +12,5 @@ while achar in Palavra:     #Enquanto estiver tendo a palavra A, ele continuara 
     if (numero == i): 
         numero = numero + 1 #adiciona 1 ponto a cada caracter na lista
         
-print(numero)   
+print("A quantidade de A é um total de: ",numero)   
 
